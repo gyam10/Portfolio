@@ -1,0 +1,74 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: black;
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #eeefef;
+  color: black;
+}
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+
+  color: #ef8b11;
+  height: 50px;
+}
+
+.about .prompt {
+  width: 40%;
+  margin-top: 100px;
+  font-size: 30px;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: #ef8b11;
+}
+
+/* Skills CSS */
+
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+  margin-top: 50px;
+}
+.skill-box {
+  background: #eeefef;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+  margin-bottom: -100px;
+}
+.skill h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.skill-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
